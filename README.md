@@ -88,3 +88,8 @@ Komponen yang mengatur lalu lintas data di jalur komunikasi (bus). Berfungsi men
 Kesimpulan:
 
 Arsitektur multiprosesor symmetric (SMP) adalah sistem komputer yang menggunakan beberapa CPU yang bekerja secara bersamaan dan memiliki akses yang setara ke memori utama dan perangkat I/O. Tujuan utama arsitektur ini adalah untuk meningkatkan kinerja sistem melalui pemrosesan paralel. Dengan membagi beban kerja ke beberapa prosesor, sistem dapat menyelesaikan tugas lebih cepat dan efisien. Namun, karena semua komponen menggunakan satu jalur komunikasi (bus), performa bisa terhambat jika terlalu banyak CPU yang aktif secara bersamaan. Arsitektur ini cocok digunakan untuk aplikasi yang membutuhkan daya komputasi tinggi seperti server dan sistem multitasking berat.
+
+
+***Perbedaan Utama Arsitektur Multiple Prosesor dan Multiprosesor Symmetric (SMP):***
+
+Arsitektur Multiple Prosesor merupakan sistem dengan banyak CPU yang bisa memiliki fungsi berbeda atau setara, tergantung desainnya. Akses memori bisa dibagi atau terdistribusi, dan komunikasi antar CPU bisa melalui jalur khusus. Sementara itu, arsitektur Multiprosesor Symmetric (SMP) adalah sistem dengan beberapa CPU yang memiliki hak dan fungsi yang setara, dan semuanya berbagi akses yang sama ke memori utama serta perangkat I/O melalui satu system bus. SMP lebih sederhana namun memiliki keterbatasan dalam skalabilitas karena satu jalur komunikasi digunakan bersama. Intinya, perbedaan terletak pada akses memori, hubungan antar CPU, dan cara komunikasi data antar komponen.
