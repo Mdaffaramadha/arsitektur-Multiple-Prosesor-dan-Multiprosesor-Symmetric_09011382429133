@@ -2,6 +2,8 @@
 
 - ***Multiple Prosesor***
 
+Arsitektur multiple prosesor adalah desain sistem komputer yang menggunakan lebih dari satu unit pemrosesan pusat (CPU) untuk menjalankan berbagai proses secara bersamaan.
+
 1. CPU (Central Processing Unit)
    
 Terdapat empat CPU yang masing-masing merupakan prosesor utama yang bekerja secara paralel. Setiap CPU dapat mengerjakan tugas sendiri atau bekerja sama dalam pemrosesan data. Ini adalah inti dari sistem multiprosesor.
@@ -39,7 +41,7 @@ Ini adalah RAM yang digunakan untuk menyimpan data dan instruksi program yang se
 
 Kesimpulan:
 
-Arsitektur multiple prosesor adalah desain sistem komputer yang menggunakan lebih dari satu unit pemrosesan pusat (CPU) untuk menjalankan berbagai proses secara bersamaan. Dalam sistem ini, setiap CPU memiliki cache memory sendiri yang berfungsi sebagai penyimpanan sementara berkecepatan tinggi untuk mempercepat akses data dan instruksi. Semua CPU tersebut terhubung satu sama lain dan ke komponen utama lainnya seperti memori utama (RAM), disk, serta jaringan melalui satu jalur komunikasi bersama yang disebut bus.
+Dalam sistem ini, setiap CPU memiliki cache memory sendiri yang berfungsi sebagai penyimpanan sementara berkecepatan tinggi untuk mempercepat akses data dan instruksi. Semua CPU tersebut terhubung satu sama lain dan ke komponen utama lainnya seperti memori utama (RAM), disk, serta jaringan melalui satu jalur komunikasi bersama yang disebut bus.
 
 Penggunaan arsitektur ini memberikan banyak keunggulan, terutama dalam hal kinerja dan efisiensi pemrosesan. Dengan adanya banyak CPU, sistem dapat membagi tugas menjadi beberapa bagian dan menjalankannya secara paralel, sehingga pekerjaan selesai lebih cepat dibandingkan sistem dengan satu prosesor. Ini sangat bermanfaat untuk sistem yang membutuhkan daya komputasi besar seperti server, superkomputer, dan aplikasi berat yang memerlukan pemrosesan data dalam jumlah besar secara cepat, seperti pengolahan video, rendering grafis, simulasi ilmiah, hingga kecerdasan buatan (AI).
 
